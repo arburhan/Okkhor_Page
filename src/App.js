@@ -17,6 +17,7 @@ function App() {
         >
           Learn React
         </a>
+        <button className="btn">Hello Tailwind</button>
       </header>
     </div>
   );
