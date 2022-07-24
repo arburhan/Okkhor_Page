@@ -1,12 +1,16 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
     const navTabs =
         <>
-            <li> <a href=""> Home </a> </li>
-            <li> <a href=""> Features </a> </li>
-            <li> <a href=""> Tutorial </a> </li>
-            <li> <a href=""> Testmonials </a> </li>
+            <li className='md:px-2'> <Link to=""  > Home </Link> </li>
+            <li className='md:px-2'> <Link to=""  > Features </Link> </li>
+            <li className='md:px-2'> <Link to=""  > Tutorial </Link> </li>
+            <li className='md:px-2'> <Link to=""  > Testmonials </Link> </li>
+            <div className="navbar-end">
+                <Link to="" className="btn">Download Now</Link>
+            </div>
         </>
     return (
         <nav>
@@ -20,16 +24,14 @@ const NavBar = () => {
                             {navTabs}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost normal-case text-xl">Okkhor Voice Typing</a>
+                    <Link to="" className="btn btn-ghost normal-case text-xl">Okkhor Voice Typing</Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal p-0">
                         {navTabs}
                     </ul>
                 </div>
-                <div className="navbar-end">
-                    <a className="btn">Download Now</a>
-                </div>
+
             </div>
         </nav>
     );
