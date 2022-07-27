@@ -17,7 +17,13 @@ const Banner = () => {
                         />
                     </div>
                 </h1>
-                <p className='py-6 md:py-8 text-xl bannerText' >If you're tired of typing, or just don't have the time to do it, Okkhor Voice Typing is the solution. With this easy-to-use app, you can speak and get text in real time. You can use Voice To Text app to create text using any language in the world.Dictate long text messages, emails or reports on the go without interrupting your workflow.</p>
+                <p className='py-6 md:py-8 text-xl bannerText' >
+                    If you're tired
+                    <Typed
+                        strings={["If you're tired of typing, or just don't have the time to do it, Okkhor Voice Typing is the solution. With this easy-to-use app, you can speak and get text in real time. You can use Voice To Text app to create text using any language in the world.Dictate long text messages, emails or reports on the go without interrupting your workflow."]}
+                        typeSpeed={40}
+                    />
+                </p>
                 <button className='btn my-2' >
                     <img className='px-2 ' src={windowsIcon} alt="" />  Download Now
                 </button>
