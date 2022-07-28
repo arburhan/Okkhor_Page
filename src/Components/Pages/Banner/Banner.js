@@ -1,8 +1,7 @@
 import React from 'react';
 import Typed from 'react-typed';
 import windowsIcon from '../../../Media/Images/icons8-windows-10-48.svg';
-import './Banner.CSS';
-
+import './Banner.css';
 const Banner = () => {
     return (
         <div className='py-8 BannerBG' >
@@ -17,10 +16,10 @@ const Banner = () => {
                         />
                     </div>
                 </h1>
-                <p className='py-6 md:py-8 text-xl bannerText' >
+                <p className='py-6 md:py-8 text-xl' >
                     If you're tired
                     <Typed
-                        strings={["If you're tired of typing, or just don't have the time to do it, Okkhor Voice Typing is the solution. With this easy-to-use app, you can speak and get text in real time. You can use Voice To Text app to create text using any language in the world.Dictate long text messages, emails or reports on the go without interrupting your workflow."]}
+                        strings={["If you're tired of typing, or just don't have the time to do it, Okkhor Voice Typing is the solution. With this easy-to-use app, you can speak and get text in real time. You can use Voice To Text app to create text using any language in the world. Long text,  messages, emails or reports on the go without interrupting your workflow."]}
                         typeSpeed={40}
                     />
                 </p>
