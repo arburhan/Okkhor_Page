@@ -24,10 +24,9 @@ const Banner = () => {
                         />
                     </div>
                 </h1>
-                <p className='py-6 md:py-8 text-md md:text-xl' >
-                    If you're tired
+                <p className='py-6 md:py-8 md:mb-8 text-md md:text-xl' >
                     <Typed
-                        strings={["If you're tired of typing, or just don't have the time to do it, Okkhor Voice Typing is the solution. With this easy-to-use app, you can speak and get text in real time. You can use Voice To Text app to create text using any language in the world. Long text,  messages, emails or reports on the go without interrupting your workflow."]}
+                        strings={["You're tired of typing, or just don't have the time to do it, Okkhor Voice Typing is the solution. You can speak and get text in real time. Long text,  messages, emails or reports on the go without interrupting your workflow."]}
                         typeSpeed={40}
                     />
                 </p>
